@@ -1,0 +1,58 @@
+/* Stylesheet copied from Grax Module - 6/13/2022 */
+
+/*h1 {
+	font-family: boucherie-block, sans-serif;
+	font-style: normal;
+	font-weight: 400; }
+
+h2 {
+	font-family: boucherie-block, sans-serif;
+	font-style: normal;
+	font-weight: 400; }
+
+h3 {
+	font-family: boucherie-block, sans-serif;
+	font-style: normal;
+	font-weight: 400; }
+*/
+
+#dm-100-to-oni {
+	display: flex;
+	justify-content: space-between;
+	width: 700px;
+}
+	
+#dm-100-to-oni .statblock-col {
+	display: flex;
+	flex-direction: column;
+	width: 330px;
+	margin-right: 5px;
+	border-width: 3px 0px;
+	border-style: double;
+	border-color: var(--dark-color);
+	background-color: var(--bg-block);
+}
+
+#dm-100-to-oni .statblock-text {
+	text-indent: -5px;
+	padding-left: 10px;
+}
+
+.hint {
+	width: 350px;
+	margin-left: 0px;
+}
+
+.hint hr {
+	border-top: 3px double var(--dark-color);
+}
+
+.halfhint {
+	width: 340px;
+	margin-left: 5px;
+}
+
+.halfhint hr {
+	border-top: 2px solid var(--dark-color);
+}
+
