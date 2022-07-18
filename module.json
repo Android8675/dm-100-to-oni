@@ -6,27 +6,23 @@
   "library": "false",
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
+  "compatibleCoreVersion": "9.269",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
+      "name": "League of Extraordinary FVTT Devs (Template)",
       "url": "https://github.com/League-of-Foundry-Developers",
       "discord": "discordID#0001"
     },
     {
-	"name": "Android8675",
-	"url": "https://github.com/Android8675",
-	"discord": "Android8675#9424"
+	    "name": "Android8675",
+	    "url": "https://github.com/Android8675",
+      "discord": "Android8675#9424"
     }
   ],
   "dependencies": [
     {
       "name": "dme",
       "manifest": "https://gitlab.com/dark-matter1/dme/raw/master/module.json"
-    },
-    {
-        "name": "lib-wrapper",
-        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
     },
     {
       "name": "dark-matter-compendium",
@@ -91,14 +87,14 @@
     }
   ],
   "esmodules": [
-    "scripts/packer-init.js",
-    "scripts/module.js"
+    "scripts/packer-init.js", // Scene Packer
+    //"scripts/module.js" // placeholder
   ],
   "scripts": [
-    "scripts/lib/lib.js"
+    //"scripts/lib/lib.js" // placeholder
   ],
   "styles": [
-    "styles/module.css"
+    "styles/module.css" // fonts, etc.
   ],
   "languages": [
     {
