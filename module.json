@@ -3,20 +3,57 @@
   "title": "One Hundred to Oni",
   "description": "AN EPIC SPACE OPERA OF BATTLEMECHS, FRIENDSHIP, SACRIFICE, AND REVENGE!",
   "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
-    },
-    {
 	"name": "Android8675",
 	"url": "https://github.com/Android8675",
 	"discord": "Android8675#9424"
+    }
+  ],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "Oni Scenes",
+      "path": "./packs/scenes.db",
+      "module": "dm-100-to-oni",
+      "entity": "Scene"      
+    },
+    {
+      "name": "actors",
+      "label": "100 to Oni Actors",
+      "path": "./packs/actors.db",
+      "module": "dm-100-to-oni",
+      "entity": "Actor"
+    },
+    {
+      "name": "journals",
+      "label": "100 to Oni Journals",
+      "path": "./packs/journals.db",
+      "module": "dm-100-to-oni",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "items",
+      "label": "100 to Oni Items",
+      "path": "./packs/items.db",
+      "module": "dm-100-to-oni",
+      "entity": "Item"      
+    },
+    {
+      "name": "rolltables",
+      "label": "100 to Oni RollTables",
+      "path": "./packs/rolltables.db",
+      "module": "dm-100-to-oni",
+      "entity": "RollTable"
+    },
+    {
+      "name": "playlists",
+      "label": "100 to Oni Playlists",
+      "path": "./packs/playlists.db",
+      "module": "dm-100-to-oni",
+      "entity": "Playlist"      
     }
   ],
   "dependencies": [
@@ -41,53 +78,6 @@
       "name": "jal",
       "manifest": "https://github.com/aMediocreDad/jal/releases/latest/download/module.json",
       "type": "module"
-    }
-  ],
-  "conflicts": [
-    
-  ],
-  "packs": [
-    {
-      "name": "maps",
-      "label": "100 to Oni Scenes",
-      "path": "/packs/maps.db",
-      "entity": "Scene",
-      "type": "Scene"
-    },
-    {
-      "name": "actors",
-      "label": "100 to Oni Actors",
-      "path": "/packs/actors.db",
-      "entity": "Actor",
-      "type": "Actor"
-    },
-    {
-      "name": "journals",
-      "label": "100 to Oni Journals",
-      "path": "/packs/journals.db",
-      "entity": "JournalEntry",
-      "type": "JournalEntry"
-    },
-    {
-      "name": "items",
-      "label": "100 to Oni Items",
-      "path": "/packs/items.db",
-      "entity": "Item",
-      "type": "Item"
-    },
-    {
-      "name": "rolltables",
-      "label": "100 to Oni RollTables",
-      "path": "/packs/rolltables.db",
-      "entity": "RollTable",
-      "type": "RollTable"
-    },
-    {
-      "name": "playlists",
-      "label": "100 to Oni Playlists",
-      "path": "/packs/playlists.db",
-      "entity": "Playlist",
-      "type": "Playlist"
     }
   ],
   "esmodules": [
