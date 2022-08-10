@@ -1,112 +1,117 @@
 {
-  "name": "dm-100-to-oni",
-  "title": "One Hundred to Oni",
-  "description": "AN EPIC SPACE OPERA OF BATTLEMECHS, FRIENDSHIP, SACRIFICE, AND REVENGE!",
-  "version": "This is auto replaced",
-  "library": "true",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "authors": [
-    {
-	"name": "Android8675",
-	"url": "https://github.com/Android8675",
-	"discord": "Android8675#9424"
-    }
-  ],
-  "packs": [
-    {
-      "name": "scenes",
-      "label": "Oni Scenes",
-      "path": "./packs/scenes.db",
-      "module": "dm-100-to-oni",
-	  "entity": "Scene"      
-    },
-    {
-      "name": "actors",
-      "label": "100 to Oni Actors",
-      "path": "./packs/actors.db",
-      "module": "dm-100-to-oni",
-	  "entity": "Actor"
-    },
-    {
-      "name": "journals",
-      "label": "100 to Oni Journals",
-      "path": "./packs/journals.db",
-      "module": "dm-100-to-oni",
-	  "type": "JournalEntry"
-    },
-    {
-      "name": "items",
-      "label": "100 to Oni Items",
-      "path": "./packs/items.db",
-      "module": "dm-100-to-oni",
-	  "type": "Item"      
-    },
-    {
-      "name": "rolltables",
-      "label": "100 to Oni RollTables",
-      "path": "./packs/rolltables.db",
-      "module": "dm-100-to-oni",
-	  "type": "RollTable"
-    },
-    {
-      "name": "playlists",
-      "label": "100 to Oni Playlists",
-      "path": "./packs/playlists.db",
-      "module": "dm-100-to-oni",
-	  "type": "Playlist"      
-    }
-  ],
-  "dependencies": [
-    {
-      "name": "dme",
-      "manifest": "https://gitlab.com/dark-matter1/dme/raw/master/module.json"
-    },
-    {
-        "name": "lib-wrapper",
-        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
-    },
-    {
-      "name": "dark-matter-compendium",
-      "manifest": "https://gitlab.com/dark-matter1/dark-matter-compendium/raw/master/module.json"
-    },
-    {
-      "name": "scene-packer",
-      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
-      "type": "module"
-    },
-    {
-      "name": "jal",
-      "manifest": "https://github.com/aMediocreDad/jal/releases/latest/download/module.json",
-      "type": "module"
-    }
-  ],
-  "esmodules": [
-    "scripts/packer-init.js",
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
-  ],
-  "styles": [
-    "styles/module.css"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+    "name": "dm-100-to-oni",
+    "title": "One Hundred to Oni",
+    "description": "AN EPIC SPACE OPERA OF BATTLEMECHS, FRIENDSHIP, SACRIFICE, AND REVENGE!",
+    "authors": [
+        {
+            "name": "Android8675",
+            "email": "66xakfaar@relay.firefox.com",
+            "url": "https://github.com/Android8675",
+            "discord": "Android8675#9424"
+        }
+    ],
+    "version": "This is auto replaced",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9.269",
+    "system": [
+        "dnd5e"
+    ],
+    "esmodules": [
+        "scripts/packer-init.js",
+        "scripts/module.js"
+    ],
+    "scripts": [
+        "scripts/lib/lib.js"
+    ],
+    "styles": [
+        "styles/module.css"
+    ],
+    "packs": [
+        {
+            "name": "scenes",
+            "label": "Oni Scenes",
+            "path": "./packs/scenes.db",
+            "entity": "Scene",
+            "module": "dm-100-to-oni"
+        },
+        {
+            "name": "actors",
+            "label": "Oni Actors",
+            "path": "./packs/actors.db",
+            "entity": "Actor",
+            "module": "dm-100-to-oni"
+        },
+        {
+            "name": "journals",
+            "label": "Oni Journals",
+            "path": "./packs/journals.db",
+            "type": "JournalEntry",
+            "module": "dm-100-to-oni"
+        },
+        {
+            "name": "items",
+            "label": "Oni Items",
+            "path": "./packs/items.db",
+            "type": "Item",
+            "module": "dm-100-to-oni"
+        },
+        {
+            "name": "rolltables",
+            "label": "Oni RollTables",
+            "path": "./packs/rolltables.db",
+            "type": "RollTable",
+            "module": "dm-100-to-oni"
+        },
+        {
+            "name": "playlists",
+            "label": "Oni Playlists",
+            "path": "./packs/playlists.db",
+            "type": "Playlist",
+            "module": "dm-100-to-oni"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "dme",
+            "manifest": "https://gitlab.com/dark-matter1/dme/raw/master/module.json"
+        },
+        {
+            "name": "lib-wrapper",
+            "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+        },
+        {
+            "name": "dark-matter-compendium",
+            "manifest": "https://gitlab.com/dark-matter1/dark-matter-compendium/raw/master/module.json"
+        },
+        {
+            "name": "scene-packer",
+            "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+            "type": "module"
+        },
+        {
+            "name": "jal",
+            "manifest": "https://github.com/aMediocreDad/jal/releases/latest/download/module.json",
+            "type": "module"
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "url": "This is auto replaced",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced",
+    "bugs": "https://github.com/Android8675/dm-100-to-oni/issues",
+    "license": "LICENSE",
+    "readme": "README.md",
+    "media": [
+        {
+            "type": "icon",
+            "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+        }
+    ],
+    "manifestPlusVersion": "1.2.0"
 }
